@@ -1,0 +1,36 @@
+*{
+    font-family: Verdana;
+    margin: o;
+}
+body{
+    background: #eee;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 10px 5px;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+    padding: 5px;
+}
+img:hover{
+    cursor: pointer;
+    opacity: .5;
+    transition: .9s;
+}
+.wrapper{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: grey;
+   
+}
